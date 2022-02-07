@@ -7,7 +7,6 @@ target 'Wholesome' do
 
   # Pods for Wholesome
     pod 'FigmaExport'
-    pod 'Parse'
     pod 'AFNetworking'
     pod 'BDBOAuth1Manager'
     pod 'DateTools'

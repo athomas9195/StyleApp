@@ -1245,14 +1245,20 @@
                     <view key="view" contentMode="scaleToFill" id="qP5-IQ-w9u">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="ywb-96-Lvk">
+                                <rect key="frame" x="-68" y="231" width="527" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aAt-wS-PFj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94980353120000005" green="0.75048965219999997" blue="0.66272455450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="gzb-WD-aYC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ft-Vb-Nsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826" y="815"/>
+            <point key="canvasLocation" x="-826.15384615384608" y="814.69194312796208"/>
         </scene>
         <!--Clients-->
         <scene sceneID="Y34-Co-euX">
@@ -1261,6 +1267,23 @@
                     <view key="view" contentMode="scaleToFill" id="4qn-At-SAO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gF0-Ox-B5h">
+                                <rect key="frame" x="0.0" y="20" width="390" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3cO-I1-YDf">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3cO-I1-YDf" id="2DA-We-FFf">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="csf-bF-YbV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1268,7 +1291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jqf-zU-Ru0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="811"/>
+            <point key="canvasLocation" x="-44.615384615384613" y="810.42654028436016"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Axc-Jg-Dtd">
@@ -1296,7 +1319,7 @@
         <!--Profile-->
         <scene sceneID="iPt-Sm-6pH">
             <objects>
-                <viewController id="MwR-ft-Bh2" customClass="ProfileViewController" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="MwR-ft-Bh2" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sxh-rl-6mr" customClass="Profile">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1954,6 +1977,7 @@
         <image name="body type specific category" width="161.33332824707031" height="205.33332824707031"/>
         <image name="busy professional category" width="161.33332824707031" height="205.33332824707031"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="calendar placeholder" width="425.33334350585938" height="313.33334350585938"/>
         <image name="camera.aperture" catalog="system" width="128" height="121"/>
         <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="101"/>
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
