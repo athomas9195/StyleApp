@@ -15,7 +15,6 @@ target 'Wholesome' do
     pod 'SVPullToRefresh'
     pod 'MBProgressHUD'
     pod 'Charts'
-    pod 'Cosmos', '~> 23.0'
     pod 'iCarousel'
 
   target 'WholesomeTests' do
