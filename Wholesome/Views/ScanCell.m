@@ -1,25 +1,25 @@
+////
+////  ScanCell.m
+////  Wholesome
+////
+////  Created by Anna Thomas on 7/22/21.
+////
 //
-//  ScanCell.m
-//  Wholesome
+//#import "ScanCell.h"
 //
-//  Created by Anna Thomas on 7/22/21.
+//@implementation ScanCell
 //
-
-#import "ScanCell.h"
-
-@implementation ScanCell
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-     
-}
-
- 
-
-//set up
-- (void)setProduct:(Product *)product{
-    _product = product;
- 
-}
- 
-@end
+//- (void)awakeFromNib {
+//    [super awakeFromNib];
+//
+//}
+//
+//
+//
+////set up
+//- (void)setProduct:(Product *)product{
+//    _product = product;
+//
+//}
+// 
+//@end

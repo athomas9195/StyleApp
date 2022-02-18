@@ -6,7 +6,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Parse/Parse.h"
 @import UIKit;
 @import Firebase;
 
@@ -15,18 +14,17 @@
 @end
 
 @implementation AppDelegate
- 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    ParseClientConfiguration *config = [ParseClientConfiguration  configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) { 
-
-        configuration.applicationId = @"QOW4EAe41BaPz9qvKVFtkIlCNCVbB9jTeMipYLgq";
-        configuration.clientKey = @"SMk4Bb8aQV6wVEXttLc6IUlKHMxe13rY8Xd5ym5A";
-        configuration.server = @"https://parseapi.back4app.com";
-    }];
-
-    [Parse initializeWithConfiguration:config];
+//    ParseClientConfiguration *config = [ParseClientConfiguration  configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+//
+//        configuration.applicationId = @"QOW4EAe41BaPz9qvKVFtkIlCNCVbB9jTeMipYLgq";
+//        configuration.clientKey = @"SMk4Bb8aQV6wVEXttLc6IUlKHMxe13rY8Xd5ym5A";
+//        configuration.server = @"https://parseapi.back4app.com";
+//    }];
+//
+//    [Parse initializeWithConfiguration:config];
     [FIRApp configure];
   
     return YES;

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B9A701F26A7616800469D20 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A701E26A7616800469D20 /* XYPieChart.m */; };
-		0B9A702226A761CD00469D20 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A702126A761CD00469D20 /* PieChartViewController.m */; };
 		0B9A702826A8D64200469D20 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A702726A8D64200469D20 /* API.m */; };
 		0B9A702B26A9534400469D20 /* ScanHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A702A26A9534400469D20 /* ScanHistoryViewController.m */; };
 		0B9A702F26A955A800469D20 /* ScanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A702E26A955A800469D20 /* ScanCell.m */; };
@@ -16,7 +14,6 @@
 		0B9A703526ACF3CF00469D20 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A703426ACF3CF00469D20 /* FoodCell.m */; };
 		0BF5CD7C26B1F3CF00B9B2B1 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF5CD7A26B1F3CB00B9B2B1 /* Vision.framework */; };
 		0BF5CD8126B1F5CE00B9B2B1 /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF5CD7F26B1F5CC00B9B2B1 /* VisionKit.framework */; };
-		0BF5CD8926B2496500B9B2B1 /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5CD8826B2496500B9B2B1 /* Food101.mlmodel */; };
 		0BF5CD8C26BB965400B9B2B1 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5CD8B26BB965400B9B2B1 /* DiscoverViewController.m */; };
 		0BF66F1F269D8B9D007BE9F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F1E269D8B9D007BE9F2 /* AppDelegate.m */; };
 		0BF66F22269D8B9D007BE9F2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F21269D8B9D007BE9F2 /* SceneDelegate.m */; };
@@ -29,7 +26,6 @@
 		0BF66F55269D923F007BE9F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F54269D923F007BE9F2 /* LoginViewController.m */; };
 		0BF66F58269E5866007BE9F2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F57269E5866007BE9F2 /* ProfileViewController.m */; };
 		0BF66F5B269FD5BC007BE9F2 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F5A269FD5BC007BE9F2 /* ScanViewController.m */; };
-		0BF66F5E269FD90E007BE9F2 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F5D269FD90E007BE9F2 /* ReportViewController.m */; };
 		0BF66F6E26A010C7007BE9F2 /* Scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F6D26A010C7007BE9F2 /* Scan.m */; };
 		0BF66F7126A0160C007BE9F2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF66F7026A0160C007BE9F2 /* Product.m */; };
 		0BF66F7A26A02163007BE9F2 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BF66F7926A02163007BE9F2 /* Keys.plist */; };
@@ -87,10 +83,6 @@
 
 /* Begin PBXFileReference section */
 		06D2DF84CCC9325432C3C375 /* Pods-Wholesome-WholesomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wholesome-WholesomeUITests.release.xcconfig"; path = "Target Support Files/Pods-Wholesome-WholesomeUITests/Pods-Wholesome-WholesomeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0B9A701D26A7616800469D20 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPieChart.h; path = ../../XYPieChart/XYPieChart/XYPieChart.h; sourceTree = "<group>"; };
-		0B9A701E26A7616800469D20 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPieChart.m; path = ../../XYPieChart/XYPieChart/XYPieChart.m; sourceTree = "<group>"; };
-		0B9A702026A761CD00469D20 /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
-		0B9A702126A761CD00469D20 /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
 		0B9A702626A8D64200469D20 /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		0B9A702726A8D64200469D20 /* API.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 		0B9A702926A9534400469D20 /* ScanHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanHistoryViewController.h; sourceTree = "<group>"; };
@@ -103,7 +95,6 @@
 		0B9A703426ACF3CF00469D20 /* FoodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
 		0BF5CD7A26B1F3CB00B9B2B1 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		0BF5CD7F26B1F5CC00B9B2B1 /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
-		0BF5CD8826B2496500B9B2B1 /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		0BF5CD8A26BB965400B9B2B1 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		0BF5CD8B26BB965400B9B2B1 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		0BF66F1A269D8B9C007BE9F2 /* Wholesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wholesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,8 +119,6 @@
 		0BF66F57269E5866007BE9F2 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		0BF66F59269FD5BC007BE9F2 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		0BF66F5A269FD5BC007BE9F2 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
-		0BF66F5C269FD90E007BE9F2 /* ReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
-		0BF66F5D269FD90E007BE9F2 /* ReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
 		0BF66F6C26A010C7007BE9F2 /* Scan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scan.h; sourceTree = "<group>"; };
 		0BF66F6D26A010C7007BE9F2 /* Scan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scan.m; sourceTree = "<group>"; };
 		0BF66F6F26A0160C007BE9F2 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
@@ -241,10 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				3D0979CA2793BB84000BEBA9 /* GoogleService-Info.plist */,
-				0BF5CD8826B2496500B9B2B1 /* Food101.mlmodel */,
 				0B9A702C26A9559500469D20 /* Views */,
-				0B9A701D26A7616800469D20 /* XYPieChart.h */,
-				0B9A701E26A7616800469D20 /* XYPieChart.m */,
 				0BF66F7226A01DFC007BE9F2 /* API */,
 				0BF66F5F26A00B4B007BE9F2 /* Models */,
 				0BF66F52269D922D007BE9F2 /* View Controllers */,
@@ -289,10 +275,6 @@
 				0BF66F57269E5866007BE9F2 /* ProfileViewController.m */,
 				0BF66F59269FD5BC007BE9F2 /* ScanViewController.h */,
 				0BF66F5A269FD5BC007BE9F2 /* ScanViewController.m */,
-				0BF66F5C269FD90E007BE9F2 /* ReportViewController.h */,
-				0BF66F5D269FD90E007BE9F2 /* ReportViewController.m */,
-				0B9A702026A761CD00469D20 /* PieChartViewController.h */,
-				0B9A702126A761CD00469D20 /* PieChartViewController.m */,
 				0B9A702926A9534400469D20 /* ScanHistoryViewController.h */,
 				0B9A702A26A9534400469D20 /* ScanHistoryViewController.m */,
 				0B9A703026ACEDD600469D20 /* CategoryDetailViewController.h */,
@@ -627,18 +609,14 @@
 				0BF5CD8C26BB965400B9B2B1 /* DiscoverViewController.m in Sources */,
 				0B9A703226ACEDD600469D20 /* CategoryDetailViewController.m in Sources */,
 				0BF66F5B269FD5BC007BE9F2 /* ScanViewController.m in Sources */,
-				0B9A701F26A7616800469D20 /* XYPieChart.m in Sources */,
 				0BF66F30269D8B9E007BE9F2 /* main.m in Sources */,
 				0B9A702F26A955A800469D20 /* ScanCell.m in Sources */,
 				3D6E73EA27BF5B3D002995EE /* ClosetViewController.swift in Sources */,
 				0BF66F7126A0160C007BE9F2 /* Product.m in Sources */,
-				0BF5CD8926B2496500B9B2B1 /* Food101.mlmodel in Sources */,
-				0BF66F5E269FD90E007BE9F2 /* ReportViewController.m in Sources */,
 				0B9A702826A8D64200469D20 /* API.m in Sources */,
 				0BF66F22269D8B9D007BE9F2 /* SceneDelegate.m in Sources */,
 				0BF66F55269D923F007BE9F2 /* LoginViewController.m in Sources */,
 				0BF66F6E26A010C7007BE9F2 /* Scan.m in Sources */,
-				0B9A702226A761CD00469D20 /* PieChartViewController.m in Sources */,
 				0B9A703526ACF3CF00469D20 /* FoodCell.m in Sources */,
 				0BF66F58269E5866007BE9F2 /* ProfileViewController.m in Sources */,
 				0B9A702B26A9534400469D20 /* ScanHistoryViewController.m in Sources */,
