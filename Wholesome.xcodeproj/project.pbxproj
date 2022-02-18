@@ -62,6 +62,7 @@
 		3D0979FE2793C257000BEBA9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0979FD2793C257000BEBA9 /* FirebaseStorage */; };
 		3D097A002793C257000BEBA9 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0979FF2793C257000BEBA9 /* FirebaseStorageCombine-Community */; };
 		3D097A022793C257000BEBA9 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3D097A012793C257000BEBA9 /* FirebaseStorageSwift-Beta */; };
+		3D6E73EA27BF5B3D002995EE /* ClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E73E927BF5B3D002995EE /* ClosetViewController.swift */; };
 		5020A7B2E691F621E3D4DD3C /* Pods_Wholesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24F5C943CCB4D67368CC67A /* Pods_Wholesome.framework */; };
 		6350B920C009699682AEECC9 /* Pods_Wholesome_WholesomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6BE688C480F4435CD66661 /* Pods_Wholesome_WholesomeUITests.framework */; };
 		9CEC707FB3F35BF06AFD10E3 /* Pods_WholesomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8775B1EE5C80888A6FCC325E /* Pods_WholesomeTests.framework */; };
@@ -136,6 +137,8 @@
 		0BF66F7926A02163007BE9F2 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		253CFAD2D0BC27C963EACB07 /* Pods-WholesomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WholesomeTests.debug.xcconfig"; path = "Target Support Files/Pods-WholesomeTests/Pods-WholesomeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0979CA2793BB84000BEBA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D6E73E827BF5B3C002995EE /* Wholesome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wholesome-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D6E73E927BF5B3D002995EE /* ClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetViewController.swift; sourceTree = "<group>"; };
 		496458C4B2F93129C0F65FFE /* Pods-WholesomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WholesomeTests.release.xcconfig"; path = "Target Support Files/Pods-WholesomeTests/Pods-WholesomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		505CEA44AB0B9213EA425A3F /* Pods-Wholesome-WholesomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wholesome-WholesomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wholesome-WholesomeUITests/Pods-Wholesome-WholesomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A6BE688C480F4435CD66661 /* Pods_Wholesome_WholesomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wholesome_WholesomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,6 +299,8 @@
 				0B9A703126ACEDD600469D20 /* CategoryDetailViewController.m */,
 				0BF5CD8A26BB965400B9B2B1 /* DiscoverViewController.h */,
 				0BF5CD8B26BB965400B9B2B1 /* DiscoverViewController.m */,
+				3D6E73E927BF5B3D002995EE /* ClosetViewController.swift */,
+				3D6E73E827BF5B3C002995EE /* Wholesome-Bridging-Header.h */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -444,6 +449,7 @@
 				TargetAttributes = {
 					0BF66F19269D8B9C007BE9F2 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1310;
 					};
 					0BF66F34269D8B9E007BE9F2 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -624,6 +630,7 @@
 				0B9A701F26A7616800469D20 /* XYPieChart.m in Sources */,
 				0BF66F30269D8B9E007BE9F2 /* main.m in Sources */,
 				0B9A702F26A955A800469D20 /* ScanCell.m in Sources */,
+				3D6E73EA27BF5B3D002995EE /* ClosetViewController.swift in Sources */,
 				0BF66F7126A0160C007BE9F2 /* Product.m in Sources */,
 				0BF5CD8926B2496500B9B2B1 /* Food101.mlmodel in Sources */,
 				0BF66F5E269FD90E007BE9F2 /* ReportViewController.m in Sources */,
@@ -808,6 +815,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4Q2QFRRY5;
@@ -818,6 +826,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.annathomas.StyleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wholesome/View Controllers/Wholesome-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -829,6 +841,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4Q2QFRRY5;
@@ -839,6 +852,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.annathomas.StyleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wholesome/View Controllers/Wholesome-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -847,6 +863,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 253CFAD2D0BC27C963EACB07 /* Pods-WholesomeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4Q2QFRRY5;
@@ -868,6 +885,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496458C4B2F93129C0F65FFE /* Pods-WholesomeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4Q2QFRRY5;
