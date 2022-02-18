@@ -6,7 +6,6 @@ target 'Wholesome' do
   use_frameworks!
 
   # Pods for Wholesome
-    pod 'FigmaExport'
     pod 'AFNetworking'
     pod 'BDBOAuth1Manager'
     pod 'DateTools'
