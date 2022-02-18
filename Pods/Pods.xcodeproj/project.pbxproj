@@ -1084,7 +1084,7 @@
 		2686EFBB803FED0C190C2B52AEA68A9F /* PFACLState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFACLState.h; path = Parse/Parse/Internal/ACL/State/PFACLState.h; sourceTree = "<group>"; };
 		26C68B7AFF879A8AA0B4E3D7A2E2623E /* PFActivityIndicatorCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActivityIndicatorCollectionReusableView.h; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorCollectionReusableView.h; sourceTree = "<group>"; };
 		273D6574A17A34A4E17CFEE3708834AB /* IShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/IShapeRenderer.swift; sourceTree = "<group>"; };
-		276D5481B1D7B77F3F1D062A07535BCB /* Pods-Wholesome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Wholesome"; path = Pods_Wholesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276D5481B1D7B77F3F1D062A07535BCB /* Pods_Wholesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wholesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		285739984953624F041C2D485B20CBFF /* PFPushChannelsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFPushChannelsController.m; path = Parse/Parse/Internal/Push/ChannelsController/PFPushChannelsController.m; sourceTree = "<group>"; };
 		28613C06D0A270B1B80AE3A3E0C3DD0A /* BarLineScatterCandleBubbleRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleRenderer.swift; path = Source/Charts/Renderers/BarLineScatterCandleBubbleRenderer.swift; sourceTree = "<group>"; };
 		2868F920A5299BFFCADAC16A18F18095 /* PFInstallationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFInstallationConstants.m; path = Parse/Parse/Internal/Installation/Constants/PFInstallationConstants.m; sourceTree = "<group>"; };
@@ -3024,7 +3024,7 @@
 				0652F2476C7C87C6C0F6CB68072EA25F /* Parse */,
 				ED7ADA84A7005589821D254428CD2D26 /* Parse-Parse */,
 				040FB37DB755D3271E65935E0D248AE4 /* Parse-ParseUI */,
-				276D5481B1D7B77F3F1D062A07535BCB /* Pods-Wholesome */,
+				276D5481B1D7B77F3F1D062A07535BCB /* Pods_Wholesome.framework */,
 				B5C84CC88D9788291EF4FBC09C232156 /* Pods-Wholesome-WholesomeUITests */,
 				4D2C7AB3E1EF1B0A93EE67374B300B94 /* Pods-WholesomeTests */,
 				7113486623047BA5B54451B578676668 /* SVPullToRefresh */,
@@ -3625,7 +3625,7 @@
 			);
 			name = "Pods-Wholesome";
 			productName = Pods_Wholesome;
-			productReference = 276D5481B1D7B77F3F1D062A07535BCB /* Pods-Wholesome */;
+			productReference = 276D5481B1D7B77F3F1D062A07535BCB /* Pods_Wholesome.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2B1A4F9261E8F421732B6CB1319CCC3E /* DateTools */ = {
