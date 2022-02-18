@@ -1222,7 +1222,7 @@
                     <tabBarItem key="tabBarItem" title="Inspo" image="sparkles" catalog="system" id="a9f-Um-K14"/>
                     <navigationItem key="navigationItem" id="FO7-tt-YgU">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="OUF-Bs-8Mw">
-                            <view key="customView" contentMode="scaleToFill" ambiguous="YES" id="436-je-QnK">
+                            <view key="customView" contentMode="scaleToFill" id="436-je-QnK">
                                 <rect key="frame" x="16" y="5.6666666666666679" width="86" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
